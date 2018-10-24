@@ -14,8 +14,7 @@ import { Component, OnInit, Input, Output, EventEmitter, ViewEncapsulation } fro
       background: black;
     }
     `
-  ],
-  encapsulation: ViewEncapsulation.Emulated
+  ]
 })
 export class FavoriteComponent {
   @Input("isfavorite") isSelected: boolean;
